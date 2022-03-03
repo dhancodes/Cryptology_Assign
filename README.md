@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment #1
 
 - [x] Watch Imitation Game
 - [ ] Write C program to list all primitive polynomials from $n=4$ to $n=16$.
