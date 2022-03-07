@@ -10,8 +10,17 @@
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/ntkme/github-buttons/archive/HEAD.zip" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
 
-```
-Here
+```c
+#include <stdio.h>
+
+int main()
+{
+	int arr[7] = {1,2,3,4,5,6};
+	printf("%d\n", arr[6]);
+
+	return 0;;
+}
+
 ```
 - [ ] Find out about Non-Linear Feedback registers of your own
 - [ ] Berlekamp_Massey algorithm implementation in C to find the shortest linear-feedback shift register (LFSR).
