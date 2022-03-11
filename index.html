@@ -16,14 +16,14 @@ abstract: A compilation of all assignments done for Cryptology I Course.
 	#define SIZE 16 <br>
 	int main(void) <br>
 	{ <br>
-	unsigned int i; <br>
-	int Arr[SIZE]; <br>
-	for (i = 15; i < (unsigned int)pow(2,SIZE+1); ++i) { <br>
-	if (i & 1) { <br>
-	int num = i >> 1; <br>
-	int sum = 1; <br>
-	for (int k = 0; k < SIZE; ++k) { <br>
-	Arr[k] = num & 1; <br>
+	&emsp;unsigned int i; <br>
+	&emsp;int Arr[SIZE]; <br>
+	&emsp;for (i = 15; i < (unsigned int)pow(2,SIZE+1); ++i) { <br>
+	&emsp;if (i & 1) { <br>
+	&emsp;int num = i >> 1; <br>
+	&emsp;int sum = 1; <br>
+	&emsp;for (int k = 0; k < SIZE; ++k) { <br>
+	&emsp;&emsp;Arr[k] = num & 1; <br>
 	if (num & 1) <br>
 	sum += 1; <br>
 	num >>= 1; <br>
