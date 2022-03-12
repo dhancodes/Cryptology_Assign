@@ -76,8 +76,8 @@ int main(void) {
 	return 0;
 }
 ```
-[Code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/primitive_poly.c)
-[List of polynominals here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/polynominals.md)
+[Download code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/primitive_poly.c)
+[Output: List of polynominals here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/polynominals)
 - [X] Find out about Non-Linear Feedback registers of your own
 - [ ] Berlekamp_Massey algorithm implementation in C to find the shortest linear-feedback shift register (LFSR).
 - [X] Write a C code to implement Stream Cipher.
@@ -96,4 +96,4 @@ int main(void) {
 	return 0;
 }
 ```
-[Code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/streamcipher.c)
+[Download code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/streamcipher.c)
