@@ -34,7 +34,7 @@ int mul(int m, int n) {
 	return ret;
 }
 
-int isValid(int num) // Will check if the polynominal has 1 as a solution.  {
+int isValid(int num){ // Will check if the polynominal has 1 as a solution.
 	if (num&1) return 0;
 	int sum = 0;
 	for (int k = 1; k < SIZE; ++k) {
