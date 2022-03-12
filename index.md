@@ -1,4 +1,4 @@
-## Akshay Dhan
+## Akshay Dhan (JRF)
 ### Assignment #1
 - [X] Watch Imitation Game
 - [X] Write C program to list all primitive polynomials from $n=4$ to $n=16$.
