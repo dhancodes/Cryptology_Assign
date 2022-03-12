@@ -33,7 +33,8 @@ int main(void)
 		}
 }
 ```
-[solution here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/primitive_poly.c)
+[download code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/primitive_poly.c)
+[See output](https://dhancodes.github.io/Cryptology_Assign/Assignment1/primitive_poly.c)
 - [X] Find out about Non-Linear Feedback registers of your own
 - [ ] Berlekamp_Massey algorithm implementation in C to find the shortest linear-feedback shift register (LFSR).
 - [ ] Write a C code to implement Stream Cipher.

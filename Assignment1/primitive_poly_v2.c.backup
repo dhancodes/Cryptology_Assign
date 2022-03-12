@@ -1,12 +1,13 @@
 #include <stdio.h>
-#define SIZE 16
+// #include <math.h>
+#define SIZE 8
 
 void toBin(int num)
 {
-	for (int k = SIZE; k > 0; --k) {
-		if ((num>>k)&1) printf("x^%d+",k);
+	for (int k = SIZE; k >= 0; --k) {
+		printf("%d",(num >> k)&1);
 	}
-	printf("1\n");
+	printf("\n");
 }
 
 int power(int base, int power)
@@ -54,20 +55,27 @@ int main(void)
 		Arr[i] = 1;
 	}
 
-	for (unsigned int i = 3; i < len; i++) {
+	for (int i = 6; i < len; i++) {
 		if (Arr[i]==1) {
 			for (int k = 2; k < len; ++k) {
+				printf("%d %d \n",i,k);
 				int value = mul(i,k);
 				if (value > len) {
 					break;
 				} else if (!((value&1) && isValid(value))) {
+					printf("%d\n",value);
 					Arr[value] = 0;
 				}
+				// } else if (!(k&1)) {
+				// 	Arr[value] = 0;
+				// } else {
+				// 	Arr[value] = 0;
+				// }
 			}
 		}
 	}
 
-	for (unsigned int i = 6; i < len; ++i) {
+	for (int i = 0; i < len; ++i) {
 		if (Arr[i]==1) {
 			toBin(i);
 		}
