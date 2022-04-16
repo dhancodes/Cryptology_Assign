@@ -2,6 +2,7 @@
 ### Assignment #1
 - [X] Watch Imitation Game
 - [X] Write C program to list all primitive polynomials from $n=4$ to $n=16$.
+
 ```c
 #include <stdio.h>
 #define SIZE 16
