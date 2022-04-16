@@ -2,7 +2,6 @@
 ### Assignment #1
 - [X] Watch Imitation Game
 - [X] Write C program to list all primitive polynomials from $n=4$ to $n=16$.
-
 ```c
 #include <stdio.h>
 #define SIZE 16
@@ -97,3 +96,8 @@ int main(void) {
 }
 ```
 [Download code here](https://dhancodes.github.io/Cryptology_Assign/Assignment1/streamcipher.c)
+
+### Assignment 2
+
+
+### Assignment 3
