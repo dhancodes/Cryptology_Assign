@@ -4,9 +4,9 @@ layout: default
 
 # Assignment 1
 
-## Watch Imitation Game
+#### Watch Imitation Game
 
-## Primitive polynominals
+### Primitive polynominals
 
 > Write C program to list all primitive polynomials from
 > $n=4$ to $n=16$.
