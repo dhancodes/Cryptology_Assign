@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+Collection of all asssignments done for Cryptology I Course. 
 # Assignment 1
 
 ### Watch Imitation Game
