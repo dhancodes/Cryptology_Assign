@@ -3,7 +3,7 @@ layout: default
 ---
 
 Collection of all asssignments done for Cryptology I Course. 
-## Assignment 1
+# Assignment 1
 
 ### Watch Imitation Game
 > Watch the Imitation Game movie based on the biography of **Alan Turing**.
@@ -110,8 +110,10 @@ int main(void) {
 }
 
 ```
-## Assignment 2
+# Assignment 2
 
-## Assignment 3 ( After Mid sem )
+# Assignment 3
 
-## Term Project
+# Term Project
+> Abstract:
+Download the term project [here]()
