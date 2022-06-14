@@ -4,12 +4,12 @@ layout: default
 
 # Assignment 1
 
-#### Watch Imitation Game
+### Watch Imitation Game
+> Watch the Imitation Game movie based on the biography of **Alan Turing**.
 
 ### Primitive polynominals
 
-> Write C program to list all primitive polynomials from
-> $n=4$ to $n=16$.
+> Write C program to list all primitive polynomials from n=4 to n=16.
 
 ```c
 #include <stdio.h>
@@ -84,14 +84,14 @@ int main(void) {
 	return 0;
 }
 ```
-## LFSR
+### LFSR
 > Find out about Non-Linear Feedback registers of your own
 
-## Berlekamp Massey
+### Berlekamp Massey
 
 > Berlekamp_Massey algorithm implementation in C to find the shortest linear-feedback shift register (LFSR).
 
-## Stream Cipher
+### Stream Cipher
 
 ```c
 #include <stdio.h>
@@ -109,10 +109,12 @@ int main(void) {
 }
 
 ```
-
+* * *
 # Assignment 2
 
+* * *
+# Assignment 3 ( After Mid sem )
 
-# Assignment 3
+* * *
 
-
+# Term Project
