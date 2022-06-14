@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 # Assignment 1
 
 ### Watch Imitation Game
