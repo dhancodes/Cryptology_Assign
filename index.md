@@ -170,8 +170,42 @@ a is given to be invertible.
 ### Square and multiply
 > Write a c program to implement the square and multiply algorithm.
 
+```c
+#include <stdio.h>
+int mult(int x, int y) {
+    int ret = 1;
+    while (y > 0) {
+      if (y % 2 == 1) result = result * x ;
+      y = y / 2;
+      x = x * x;
+    }
+
+    return ret;
+}
+
+int main() {
+	printf("%d",mult(2,3));
+}
+```
+
 ### Generator of Zp*
 > Given a prime p, write an algorithm to find the generator of Zp*.
+
+The idea is to loop through all 1 to p-1 and check whether there exist
+a k other than p-1 such that a<sup>k</sup> is 1.
+
+```
+count = 0
+for a from 1 to p-1:
+	if count = p-1:
+		return a-1 is a generator
+	count = p-1
+	for k from 1 to p-1:
+		if a<sup>k</sup>=1:
+			break
+		else:
+			count++
+```
 
 ### Attack on Discrete log problem
 > Launch an attack on the Discrete Log Problem.
