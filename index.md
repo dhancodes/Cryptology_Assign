@@ -114,6 +114,28 @@ int main(void) {
 
 # Assignment 3
 
+### n-bit addition and mulitplication
+> Given M is a 2n bit integer and N is a n bit integer, find an algorithm to find M+N, M/N, and the complexity of the algorithm.
+
+*For addition*
+We have the bitwise addition alogorithm.
+
+Consider f as function which acts according to the following
+truth table.
+
+![f](Assignment3/img_220621_2143_41.png)
+
+```
+Initialize M,N
+Initialize carry = 0
+for i from 0 to n-1;
+	f(M[i],N[i],carry)
+
+for i from n to 2n;
+	f(M[i],0,carry)
+```	
+
+![f](Assignment3/img_220621_2146_03.png)
 # Term Project
 > Abstract:
 Download the term project [here]()
