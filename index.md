@@ -125,6 +125,8 @@ truth table.
 
 ![f](Assignment3/img_220621_2143_41.png)
 
+We can have the algoithm as follows.
+
 ```
 Initialize M,N
 Initialize carry = 0
@@ -135,7 +137,18 @@ for i from n to 2n;
 	f(M[i],0,carry)
 ```	
 
+The loops will take a total of 2n steps where each step take O(1) time.
+Hence the algorithm takes O(n) time.
+
+**For Multiplication**
+
+We can use the bitwise multiplication. But an efficient algorithm is the
+booths algorithm. The efficency is based on the additional space.
+
 ![f](Assignment3/img_220621_2146_03.png)
+
+Here the loops takes n steps and there is a addition of n bit number in each
+loop. Hence the algorithm takes O(n<sup>2</sup>) time.
 # Term Project
 > Abstract:
 Download the term project [here]()
