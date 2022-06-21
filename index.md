@@ -117,7 +117,7 @@ int main(void) {
 ### n-bit addition and mulitplication
 > Given M is a 2n bit integer and N is a n bit integer, find an algorithm to find M+N, M/N, and the complexity of the algorithm.
 
-*For addition*
+**For addition**
 We have the bitwise addition alogorithm.
 
 Consider f as function which acts according to the following
