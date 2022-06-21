@@ -112,8 +112,6 @@ int main(void) {
 ```
 # Assignment 2
 
-# Assignment 3
-
 ### n-bit addition and mulitplication
 > Given M is a 2n bit integer and N is a n bit integer, find an algorithm to find M+N, M/N, and the complexity of the algorithm.
 
@@ -149,6 +147,23 @@ booths algorithm. The efficency is based on the additional space.
 
 Here the loops takes n steps and there is a addition of n bit number in each
 loop. Hence the algorithm takes O(n<sup>2</sup>) time.
+
+### Inverses of a mod n
+> Given two integers a,n, write a C program to find the inverse of a in mod n if it exists.
+
+The idea is to use euclidean algorithm 
+
+ax + by = gcd(a, b)
+
+Let us put b = n, we get
+  ax + n * y = gcd(a, n)
+
+We know gcd(a, n) = 1 because
+a is given to be invertible.
+  ax + n * y = 1
+ ax  ≡ 1 (mod n)
+ 
+
 # Term Project
 > Abstract:
 Download the term project [here]()
