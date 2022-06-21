@@ -201,7 +201,7 @@ for a from 1 to p-1:
 		return a-1 is a generator
 	count = p-1
 	for k from 1 to p-1:
-		if a<sup>k</sup>=1:
+		if a^k ==1:
 			break
 		else:
 			count++
