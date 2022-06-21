@@ -152,17 +152,35 @@ loop. Hence the algorithm takes O(n<sup>2</sup>) time.
 > Given two integers a,n, write a C program to find the inverse of a in mod n if it exists.
 
 The idea is to use euclidean algorithm 
-
 ax + by = gcd(a, b)
 
 Let us put b = n, we get
   ax + n * y = gcd(a, n)
-
+  
 We know gcd(a, n) = 1 because
 a is given to be invertible.
+
   ax + n * y = 1
+  
  ax  ≡ 1 (mod n)
  
+ ```
+ ```
+ 
+### Square and multiply
+> Write a c program to implement the square and multiply algorithm.
+
+### Generator of Zp*
+> Given a prime p, write an algorithm to find the generator of Zp*.
+
+### Attack on Discrete log problem
+> Launch an attack on the Discrete Log Problem.
+
+### Miller Rabin
+> Write down a C code for the primality test algorithm.
+
+### RSA Algorithm
+> Prove the RSA algorithm (M<sup>ed</sup>=M(mod n))
 
 # Term Project
 > Abstract:
